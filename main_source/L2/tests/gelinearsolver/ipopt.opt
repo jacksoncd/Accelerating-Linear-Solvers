@@ -1,0 +1,7 @@
+
+
+#linear_solver ma57
+#output_file vitisoutput.txt
+#output_file ma97output.txt
+
+#file_print_level 7
