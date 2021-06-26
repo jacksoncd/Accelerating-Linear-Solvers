@@ -43,3 +43,10 @@ To compile go to the [library compile directory](library_file_for_IPOPT) and run
 This will produce a `.so` file which should be symbolically linked to `\usr\local\lib` for use with IPOPT. IPOPT has an environment variable that must be set to find the created library file, this can be set as follows:
 
 `export LIBS=-lvitislibrary`
+
+### Use
+Set the linear solver IPOPT uses to custom. This can be done in an `ipopt.opt` file as follows:
+
+`linear_solver custom`
+
+IPOPT can then be run as usual and it will use the FPGA based solver.
