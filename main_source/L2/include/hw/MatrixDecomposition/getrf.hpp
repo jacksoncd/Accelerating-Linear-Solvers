@@ -72,14 +72,6 @@ LoopMulSub:
             
         }   
                  
-              
-
-        
-        
-        
-        // Make use of the symmetry and vectors
-        
-        // Make use of sparsity
         
         
     };
