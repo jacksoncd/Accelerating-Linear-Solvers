@@ -70,7 +70,7 @@ namespace Ipopt
       Edit for path of xclbin file
       ********/
       
-      xclbin_path = "/home/jacksoncd/solver-acceleration/linear_solver_lib/solver/L2/tests/gelinearsolver/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/kernel_gelinearsolver.xclbin";
+      xclbin_path = "../main_source/L2/tests/gelinearsolver/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/kernel_gelinearsolver.xclbin";
       
       // Find platform
       devices = xcl::get_xil_devices();
@@ -423,7 +423,7 @@ namespace Ipopt
           }
           
           return SYMSOLVER_SUCCESS;
+          
 }
-
 
 } //namespace Ipopt
